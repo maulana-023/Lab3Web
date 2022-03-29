@@ -147,3 +147,24 @@ Gambar di atas adalah hasil codingan yang dibawah yang telah di tambahkan kode u
 </body>
 </html>
 ```
+
+### 5.Membuat Tabel
+![Menambahkan_Paragraf](pict/ss5.png) 
+Gambar di atas adalah file baru dengan nama lab3_tabel.html seperti berikut.
+
+### Dibawah ini Adalah Codingan Dari Gambar Diatas:
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lanjutan</title>
+</head>
+<body>
+    <header>
+        <h1>Membuat Table</h1>
+    </header>
+</body>
+</html>
+```
