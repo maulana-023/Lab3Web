@@ -216,10 +216,10 @@ Gambar di atas adalah hasil codingan yang dibawah yang telah di tambahkan kode u
 </html>
 ```
 
-### 6.Mengatur Margin dan Padding
+### .Mengatur Margin dan Padding
 Untuk mengatur margin dan padding pada cel data, tambahkan atribut cellpadding dan
 cellspacing pada tag table.
 
-'''html
+```html
 <table border="1" cellpadding="4" cellspacing="0">
-'''
+```
