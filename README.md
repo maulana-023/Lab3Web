@@ -150,7 +150,7 @@ Gambar di atas adalah hasil codingan yang dibawah yang telah di tambahkan kode u
 
 ### 5.Membuat Tabel
 ![Menambahkan_Paragraf](pict/ss5.png) 
-Gambar di atas adalah file baru dengan nama lab3_tabel.html seperti berikut.
+Gambar di atas adalah file baru dengan nama lab3_tabel.html.
 
 ### Dibawah ini Adalah Codingan Dari Gambar Diatas:
 ```html
@@ -165,6 +165,53 @@ Gambar di atas adalah file baru dengan nama lab3_tabel.html seperti berikut.
     <header>
         <h1>Membuat Table</h1>
     </header>
+</body>
+</html>
+```
+
+### 6.Membuat Description List
+![Menambahkan_Paragraf](pict/ss6.png) 
+Gambar di atas adalah hasil codingan yang dibawah yang telah di tambahkan kode untuk membuat tabel sederhana seperti berikut:
+
+### Dibawah ini Adalah Codingan Dari Gambar Diatas:
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lanjutan</title>
+</head>
+<body>
+    <header>
+        <h1>Membuat Table</h1>
+    </header>
+    <table border="1" cellpadding="4" cellspacing="0">
+        <thead>
+        <tr>
+            <th>No.</th>
+            <th>Fakultas</th>
+            <th>Program Studi</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td>Teknik</td>
+                <td>Teknik Informatika</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Teknik</td>
+                <td>Teknik Industri</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Teknik</td>
+                <td>Teknik Lingkungan</td>
+            </tr>
+        </tbody>
+     </table>
 </body>
 </html>
 ```
