@@ -315,3 +315,29 @@ Kemudian selanjutnya tambahkan kode untuk membuat tabel sederhana seperti beriku
         </fieldset>
     </form>
 ```
+
+### Dibawah ini Adalah Gambar Dari Kodingan Diatas:
+![Menambahkan_Paragraf](pict/ss8.png) 
+
+### 10.Membuat Description List
+![Menambahkan_Paragraf](pict/ss9.png) 
+Gambar di atas adalah hasil codingan yang dibawah yang telah di tambahkan Menabahkan Style pada Form Agar tampilan form lebih menarik, bisa ditambahkan CSS seperti berikut.
+
+```html
+<style>
+    form p > label {
+        display: inline-block;
+        width: 100px;
+    }
+    form input[type="text"], form textarea {
+        border: 1px solid #197a43;
+    }
+    form input[type="submit"] {
+        border: 1px solid #197a43;
+        background-color: #197a43;
+        color: #ffffff;
+        font-weight: bold;
+        padding: 5px 15px;
+    }
+</style>
+```
