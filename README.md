@@ -321,7 +321,7 @@ Kemudian selanjutnya tambahkan kode untuk membuat tabel sederhana seperti beriku
 
 ### 10.Membuat Description List
 ![Menambahkan_Paragraf](pict/ss9.png) 
-Gambar di atas adalah hasil codingan yang dibawah yang telah di tambahkan Menabahkan Style pada Form Agar tampilan form lebih menarik, bisa ditambahkan CSS seperti berikut.
+Gambar di atas adalah hasil codingan yang dibawah yang telah di tambahkan Style pada Form Agar tampilan form lebih menarik, bisa ditambahkan CSS seperti berikut.
 
 ```html
 <style>
@@ -340,4 +340,80 @@ Gambar di atas adalah hasil codingan yang dibawah yang telah di tambahkan Menaba
         padding: 5px 15px;
     }
 </style>
+```
+
+## Pertanyaan dan Tugas
+### Buatlah form yang menampilkan dropdown menu dan listbox dengan multiple selection.
+
+![Menambahkan_Paragraf](pict/ss10.png) 
+
+### Dibawah ini Adalah Codingan Dari Gambar Diatas:
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Form dropdown & Listbox with multiple selection</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    
+  </head>
+  <style>
+    form p > label {
+    display: inline-block;
+    width: 100px;
+    }
+    form input[type="text"], form textarea {
+    border: 1px solid #197a43;
+    }
+    form input[type="submit"] {
+    border: 1px solid #197a43;
+    background-color: #197a43;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 5px 15px;
+    }
+    </style>
+  <body>
+    <div class="header">
+      <div>
+        <h1>Form Mahasiswa UPB</h1>
+      </div>
+    </div>
+    <form action="proses.php" method="post">
+      <fieldset>
+        <legend>Data Mahasiswa</legend>
+        <label for="nama">Nama</label>
+        <input type="text" id="nama" name="nama">
+
+        <label for="nim">NIM</label>
+        <input type="text" id="nim" name="nim">
+
+        <label for="jurusan">JK</label>
+        <input id="jk_l" type="radio" name="kelamin" value="L" />
+        <label for="jk_l">Laki-laki</label>
+        <input id="jk_p" type="radio" name="kelamin" value="P" />
+        <label for="jk_p">Perempuan</label>
+        <br>
+
+        <br>
+        <label for="jurusan">Jurusan(Dropdown)</label>
+        <select name="jurusan">
+          <option value="" selected="selected">--Pilih Jurusan--</option>
+          <option value="ti">Teknik Informatika</option>
+          <option value="ts">Teknik Sipil</option>
+          <option value="mj">Manajemen</option>
+        </select>
+        <br>
+
+        <br>
+        <label for="alamat">Alamat</label>
+        <textarea id="alamat" name="alamat" cols="20" rows="3"></textarea>
+        <p>
+          <input type="submit" value="Daftar">
+        </p>
+      </fieldset>
+    </form>
+  </body>
+</html
 ```
